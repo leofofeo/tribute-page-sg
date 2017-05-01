@@ -1,0 +1,50 @@
+
+body {
+	padding-top:20px;
+	background-color:red;
+}
+
+h1 {
+	font-family: monospace;
+}
+
+.blockquote {
+	margin-top: 30px;
+	margin-bottom:30px;
+	margin-left:30px;
+	margin-right:30px;
+	font-size: 1.6em;
+	font-weight:bold;
+	color:gray;
+}
+
+.content-main {
+	padding: 40px 60px 40px 60px;
+}
+
+.testing {
+	background-color:black;
+	color: red;
+}
+
+.video {
+	max-width:80%;
+	padding-top:20px;
+}
+
+.videos {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.vid-btn {
+	margin-bottom: 10px;
+	margin-top:10px;
+	padding: 30px 0px 30px 0px;
+	width:50%;
+}
+
+#articles {
+	padding-top: 20px;
+	margin-bottom:20px;
+}
