@@ -8,7 +8,9 @@ $('button').on('click', function(){
 	vidId = '#video' + btnId[btnId.length - 1]; 
 	if($(vidId).hasClass('hidden')){
 		$(vidId).removeClass('hidden').addClass('show');
+		$('#' + btnId).addClass('active');
 	} else {
 		$(vidId).removeClass('show').addClass('hidden');
+		$('#' + btnId).removeClass('active');
 	}
 });

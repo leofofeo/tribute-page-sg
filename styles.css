@@ -13,7 +13,7 @@ h2 {
 }
 
 .art-lst {
-	max-width:50%;
+	max-width:55%;
 	padding-left:5%;
 	padding-right:5%;
 	display:block;
@@ -57,5 +57,5 @@ h2 {
 
 #articles {
 	padding-top: 20px;
-	margin-bottom:20px;
-}
+	
+	}
