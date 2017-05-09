@@ -12,6 +12,31 @@ h2 {
 	padding-bottom:20px;
 }
 
+
+/* Navigation Styling */
+
+.navbar {
+	/*background: #34495e!important;*/
+	padding:20px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+	color:#ecf0f1!important;
+	font-size:1.5em;
+}
+
+.navbar .navbar-brand:hover {
+	color:#2980b9!important;
+}
+
+.navbar .navbar-brand {
+	color: #ecf0f1!important;
+	font-size:2.5em;
+}
+
+/* END Navigation Styling */
+
 .art-lst {
 	max-width:55%;
 	padding-left:5%;
@@ -59,3 +84,32 @@ h2 {
 	padding-top: 20px;
 	
 	}
+
+	footer {
+	background:#333;
+	color:white;
+	height:70px;
+	width:100%!important;
+}
+
+footer p {
+	padding-top:15px;
+	padding-left:auto;
+	padding-right: auto;
+	margin:auto;
+	font-weight:bold;
+	font-family: monospace;
+}
+
+footer a:link {
+	text-decoration: none;
+	color:#2980b9!important;
+}
+
+/*footer a {
+	color:#fff;
+}
+*/
+footer a:hover {
+	color:#fff!important;
+}
