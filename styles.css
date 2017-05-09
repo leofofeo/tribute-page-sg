@@ -1,7 +1,5 @@
 
 body {
-	padding-top:20px;
-	background-color:red;
 }
 
 h1 {
@@ -36,6 +34,12 @@ h2 {
 }
 
 /* END Navigation Styling */
+
+
+.jumbotron {
+	margin-top:0!important;
+}
+
 
 .art-lst {
 	max-width:55%;
@@ -83,9 +87,9 @@ h2 {
 #articles {
 	padding-top: 20px;
 	
-	}
+}
 
-	footer {
+footer {
 	background:#333;
 	color:white;
 	height:70px;
@@ -106,10 +110,12 @@ footer a:link {
 	color:#2980b9!important;
 }
 
-/*footer a {
-	color:#fff;
-}
-*/
 footer a:hover {
 	color:#fff!important;
+}
+
+img.hero {
+	border-radius:30px;
+	margin: 40px auto;
+	width:60%;
 }
