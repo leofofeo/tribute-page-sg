@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+
+body {
+}	
+
+
+.color-white {
+	color:#fff;
+}
+
+/***************************/
+/***  Banner    ***/
+/***************************/
+
+.section-banner {
+	margin-bottom:50px;
+	background-color: 
+}
+
+.banner-img {
+	width:80%;
+	margin: 0 auto;
+	border:5px solid black;
+	border-radius:20px;
+	padding:10px;
+}
+
+.banner-img img {
+	width:100%;
+	border-radius:10px;
+}
+
+.banner-title h1 {
+	font-size: 3.4em;
+}
+
+/***************************/
+/***  Main Content ***/
+/***************************/
+
+.section-main-content {
+	background-color: #1a0033;
+	padding:40px;
+}
+
+.long-copy, .long-copy p, .long-copy blockquote {
+	color:#fff;
+}
+
+hr {
+	border-width:1px;
+	margin-left:20%;
+	margin-right:20%;
+
+}
+
+.hr-top {
+	margin-top:40px;
+}
+
+.hr-bottom {
+	margin-bottom:40px;
+}
+
+.quote {
+	font-size:1.3em;
+	font-weight: bold;
+	padding:20px 40px;
+	word-spacing: 2px;
+	line-height: 1.6em;
+}
+
+
+
+/***************************/
+/***  Media Content ***/
+/***************************/
+
+.section-media-content {
+	margin-bottom:30px;
+}
+
+
+.section-videos {}
+
+
+.section-articles {}
+
+
+.video-grouping {
+	display:flex;
+	flex-flow: column;
+	align-items:center;
+	justify-content: center;
+	padding:5px;
+}
+
+.articles {
+	display:flex;
+	flex-flow: column;
+}
+
+.article {
+	padding-top:10px;
+	word-spacing: 2px;
+	font-style: italic;
+}
+
+.article a:link {
+	text-decoration: none;
+	color: #1a0033;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.btn {
+	margin-bottom:10px;
+	border:none;
+	color:#fff;
+	padding:10px;
+	border-radius:15px;
+	width:70%;
+	font-weight:bold;
+	letter-spacing: 3px;
+}
+
+.btn-default {	
+	background-color: #C0C0C0;
+}
+
+.btn-active {
+	background-color: #1a0033;
+}
+
+/***************************/
+/***  More Info ***/
+/***************************/
+
+.section-more-info {
+	background-color: #1a0033;
+	padding:40px;
+}
+
+.wik-link {
+	color:#fff;
+	text-decoration: none;
+	font-weight:bold;
+	word-spacing: 3px;
+}
+
+
+
+/***************************/
+/***  Footer ***/
+/***************************/
+
+.section-footer {
+	background-color: black;
+	color:#fff;
+}
+
+.footer-link {
+	text-decoration: none;
+	margin-right:10px;
+	display: inline-block;
+}
+
+.footer-logo {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-logo i {
+	margin-left:10px;
+}

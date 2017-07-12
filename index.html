@@ -5,11 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>American Sage</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <!-- Bootstrap -->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/simple-grid.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -34,105 +32,137 @@
     <body>
 
       <!--Begin Banner Section -->
-      <section id="banner">
-        <h1>George Carlin: American Sage</h1>
-        <img id="carlin-image" src="http://res.cloudinary.com/leofofeo/image/upload/v1493650507/gc_nkcgda.png" class="img-responsive hero text-center">
+      <section class="container section-banner">
+        <div class="row">
+          <div class="col-12 center">
+            <div class="banner-title">
+              <h1>George Carlin: American Sage</h1>  
+            </div>
+            <div class="banner-img">
+              <img id="carlin-image" src="http://res.cloudinary.com/leofofeo/image/upload/v1493650507/gc_nkcgda.png">
+            </div>            
+          </div>  
+        </div>
       </section>
       <!--End Banner Section -->
 
-      <!--Start Main  Section -->
-      <section id="main">
-
-        <!-- Start Content Section -->
-        <section id="content">
-          <p>
-            George Carlin was an American comedian, regarded by many as one of the all-time greats. His career took off after his "7 words you can't say on television" bit, and it accelerated quickly from there.
-          </p>
-          <p>
-            Throughout his decades-long career, Carlin touched on a variety of topics, including religion, nationalism, language, and general human quirks. He was well-known for his approach to generating new material, which involved working on a specific stand-up bit for up to 18 months, and then completely starting from scratch when developing his next hour-long special.
-          </p>
-          <blockquote>
-            "Some people see things that are and ask, 'Why?' Some people dream of things that never were and ask, 'Why not?' Some people have to go to work and don't have time for all that."
-          </blockquote>
-          <p>As he got older, Carlin's material grew noticeably heavier, often taken on a preaching tone. While some may not have been fans of this approach, many found wisdom in his words. His satirical and poignant sets tackled uncomfortable truths about the fate of America, the world, and humanity as a whole. His many hour-long specials on HBO are beacons of the type of astute observation he was so well-known for, and reflected his adroitness in the most important skill a comedian can have: to hold a mirror up to society, allowing uncomfortable truths to be seen amongst the laughter.</p>
-          <p>
-            On this page, you can explore a range of clips highlighting some of his best work, along with a few articles that'll give the reader a deeper look into the man, the comedian, the sage: George Carlin.
-          </p>
-        </section>
-        <!--End Content Section-->
-
-        <!-- Start sidebar section -->
-        <section id="secondary">
-
-          <!-- Start videos section -->
-          <section id="videos">
-            <h3>
-              Videos
-            </h3>
-             <button type="button" class="btn btn-default vid-btn" id="btn1">On Homelessness</button>
-            <iframe src="https://www.youtube.com/embed/lncLOEqc9Rw" frameborder="0" allowfullscreen class="video hidden" id="video1"></iframe>
-             <button type="button" class="btn btn-default vid-btn" id="btn2">On Stuff</button>
-            <iframe src="https://www.youtube.com/embed/4x_QkGPCL18" frameborder="0" allowfullscreen class="video hidden" id="video2"></iframe>
-            <button type="button" class="btn btn-default vid-btn" id="btn3">On Saving the Planet</button>
-            <iframe src="https://www.youtube.com/embed/7W33HRc1A6c" frameborder="0" allowfullscreen class="video hidden" id="video3"></iframe>
-            <button type="button" class="btn btn-default vid-btn" id="btn4">On Airlines and Flying</button>
-            <iframe src="https://www.youtube.com/embed/vdPy5Ikn7dw" frameborder="0" allowfullscreen class="video hidden" id="video4"></iframe>
-            <button type="button" class="btn btn-default vid-btn" id="btn5">Louis CK on George Carlin</button>
-            <iframe src="https://www.youtube.com/embed/R37zkizucPU" frameborder="0" allowfullscreen class="video hidden" id="video5"></iframe>
-          </section>
-          <!-- End videos section-->
-
-          <!-- Start articles section -->
-          <section id="articles">
-            <h3>
-              Articles
-            </h3>
-            <div>
-              New York Times: <a href="http://www.nytimes.com/2008/06/24/opinion/24seinfeld.html">Jerry Seinfeld's Tribute to George Carlin</a>
+      <section class="section-main-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 long-copy">
+              <p >
+                George Carlin was an American comedian, regarded by many as one of the all-time greats. His career took off after his "7 words you can't say on television" bit, and it accelerated quickly from there.
+              </p>
+              <p>
+                Throughout his decades-long career, Carlin touched on a variety of topics, including religion, nationalism, language, and general human quirks. He was well-known for his approach to generating new material, which involved working on a specific stand-up bit for up to 18 months, and then completely starting from scratch when developing his next hour-long special.
+              </p>
+              <hr class="hr-top">
+              <blockquote class="quote">
+                Some people see things that are and ask, 'Why?' Some people dream of things that never were and ask, 'Why not?' Some people have to go to work and don't have time for all that.
+              </blockquote>
+              <hr class="hr-bottom">
+              <p >As he got older, Carlin's material grew noticeably heavier, often taken on a preaching tone. While some may not have been fans of this approach, many found wisdom in his words. His satirical and poignant sets tackled uncomfortable truths about the fate of America, the world, and humanity as a whole. His many hour-long specials on HBO are beacons of the type of astute observation he was so well-known for, and reflected his adroitness in the most important skill a comedian can have: to hold a mirror up to society, allowing uncomfortable truths to be seen amongst the laughter.</p>
+              <p>
+                On this page, you can explore a range of clips highlighting some of his best work, along with a few articles that'll give the reader a deeper look into the man, the comedian, the sage: George Carlin.
+              </p>
             </div>
-            <div>
-              Time Magazine: <a href="http://content.time.com/time/arts/article/0,8599,1817192,00.html">How George Carlin Changed Comedy</a>
-            </div>
-            <div>
-              NPR: <a href="http://www.npr.org/templates/story/story.php?storyId=91819121">Comedian Carlin Leaves Rich Legacy</a>
-            </div>
-            <div>
-              Today: <a href="http://www.today.com/popculture/comedians-pay-tribute-george-carlin-wbna27648971">Comedians Pay Tribute to Carlin</a>
-            </div>
-          </section>
-          <!-- End Articles section -->
-
-        </section>
-      
-      <section id="finisher">
-         <div>
-            For a more in-depth look into Carlin's life, you can check out his <a href="https://en.wikipedia.org/wiki/George_Carlin">Wikipedia Entry.</a>
+            
           </div>
-          <blockquote>
-            "I think people should be allowed to do anything they want. We haven't tried that for a while. Maybe this time it'll work."
-          </blockquote>
-      </section>
-      
-      <!--End sidebar Section-->
+        </section> 
 
-      </section>
-      <!-- Footer -->
-      <footer class="text-center" id="footer">
-       <a href="https://leofofeo.github.io">
-        <p>
-         A Leo Fo Feo Production
-       </p> 
-       <i class="fa fa-beer" aria-hidden="true"></i> 
-     </a>
-   </footer>
-   <!-- End Footer -->
+        <section class="section-media-content container">
+          <div class="row">  <!-- Begin row -->
+            <div class="col-8 section-videos"><!--Begin video section-->
+              <h2 class="center">
+                Videos
+              </h2>
+              <div class="videos center">
+                <div class="video-grouping"> 
+                  <button class="btn btn-default j-btn" type="button" id="btn-1">On  Homelessness
+                  </button>
+                  <iframe class="j-iframe" src="https://www.youtube.com/embed/lncLOEqc9Rw" frameborder="0" allowfullscreen id="iframe-1"></iframe>
+                </div>
+                <div class="video-grouping">
+                 <button class="btn btn-default btn-default j-btn" type="button" id="btn-2">On Stuff</button>
+                 <iframe class="j-iframe" src="https://www.youtube.com/embed/4x_QkGPCL18" frameborder="0" allowfullscreen id="iframe-2"></iframe>
+               </div>
+               <div class="video-grouping">
+                 <button class="btn btn-default j-btn" type="button" id="btn-3">On Saving the Planet
+                 </button>
+                 <iframe class="j-iframe" src="https://www.youtube.com/embed/7W33HRc1A6c" frameborder="0" allowfullscreen id="iframe-3"></iframe>
+               </div>
+               <div class="video-grouping">
+                <button class="btn btn-default j-btn" type="button" id="btn-4">On Airlines and Flying</button>
+                <iframe class="j-iframe" src="https://www.youtube.com/embed/vdPy5Ikn7dw" frameborder="0" allowfullscreen id="iframe-4">
+                </iframe>
+              </div>
+              <div class="video-grouping">
+               <button class="btn btn-default j-btn" type="button" id="btn-5">Louis CK on George Carlin
+               </button>
+               <iframe class="j-iframe" src="https://www.youtube.com/embed/R37zkizucPU" frameborder="0" allowfullscreen id="iframe-5">
+               </iframe>
+             </div>
+           </div>
+         </div><!--End video section-->
 
-   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <!-- Latest compiled and minified JavaScript -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   <script src="script.js">
-   </script>
- </script>
+         <div class="col-4 section-articles"><!-- Begin articles section -->
+          <h2 class="center">
+            Articles
+          </h2>
+          <div class="articles">
+            <div class="article">
+              New York Times: <a href="http://www.nytimes.com/2008/06/24/opinion/24seinfeld.html" target="_blank">Jerry Seinfeld's Tribute to George Carlin</a>
+            </div>
+            <div class="article">
+              Time Magazine: <a href="http://content.time.com/time/arts/article/0,8599,1817192,00.html" target="_blank">How George Carlin Changed Comedy</a>
+            </div>
+            <div class="article">
+              NPR: <a href="http://www.npr.org/templates/story/story.php?storyId=91819121" target="_blank">Comedian Carlin Leaves Rich Legacy</a>
+            </div>
+            <div class="article">
+              Today: <a href="http://www.today.com/popculture/comedians-pay-tribute-george-carlin-wbna27648971" target="_blank">Comedians Pay Tribute to Carlin</a>
+            </div>
+          </div>
+        </div><!-- End articles section -->
+      </div><!-- End row -->
+    </section>
+
+
+    <section class="section-more-info">
+     <div class="container">
+      <div class="row">
+        <div class="col-12 long-copy center">
+          <p>
+           For a more in-depth look into Carlin's life, you can check out his <a href="https://en.wikipedia.org/wiki/George_Carlin" class="wik-link">Wikipedia Entry.</a> 
+         </p>
+         <hr class="hr-top">
+         <blockquote class="quote">
+          I think people should be allowed to do anything they want. We haven't tried that for a while. Maybe this time it'll work.
+        </blockquote>
+        <hr class="hr-bottom">                 
+      </div>
+    </div>         
+  </div>      
+</section>
+
+<footer class="section-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-logo">
+          <a href="https://leofofeo.github.io" class="color-white footer-link">
+            A LeoFoFeo Production<i class="fa fa-beer color-white" aria-hidden="true"></i> 
+        </a>
+        </div>
+     </div>
+   </div>
+ </div>
+</footer>
+
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
